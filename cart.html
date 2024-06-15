@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cart</title>
+</head>
+<body>
+
+  <section id="header">
+    <div class="circle">
+      <img src="images/logo/furniture logo.png" alt="Logo"> 
+      <div class="text">
+          <!-- Placeholder for the spinning text -->
+      </div>
+    </div>
+    <!-- <a href="#"><img src="images/image7.jpg" height="100" width="100" class="logo" alt=""></a>  -->
+
+
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html" target="_blank">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="active"   href="cart.html"><img src="images/icons/shopping bag.png" height="16px" width="16px" alt=""></a></li>  <!--add real shopping icon later using font awesome -->
+       <span id="close">&times</span> <!--<i id="bar" class = "fas fa-times"></i> -->
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="cart.html"><img src="images/icons/shopping icon black.png" height="20px" width="20px" alt=""></a>  <!--add real shopping icon later using font awesome -->
+      <span id="bar">&#9776</span> <!--<i id="bar" class = "fas fa-outdent"></i> -->
+    </div>
+  </section>
+  
+  <section id="cart-header" class="cart-header section-p1">
+    <h2>#Always Shop With Us</h2>
+    <p>Thank you! for Your paTronage!</p>
+    <p>Appreciated</p>
+  </section>
+
+  <section id="cart" class="section-p1">
+    <table width="100%">
+      <thead>
+        <tr>
+          <td>Remove</td>
+          <td>Image</td>
+          <td>Product</td>
+          <td>Price</td>
+          <td>Quantity</td>
+          <td>Subtotal</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="#"><span>&times</span></a></td> <!--<a href="#"><i class="far fa-times-cirrcle"></i></a> USE THIS ICON LATER-->
+          <td><img src="images/office/office1.jpg" alt=""></td>
+          <td>Desk Top</td>
+          <td>$118.19</td>
+          <td><input type="number" value="1"></td>
+          <td>$118.19</td>
+        </tr>
+        <tr>
+          <td><a href="#"><span>&times</span></a></td> <!--<a href="#"><i class="far fa-times-cirrcle"></i></a> USE THIS ICON LATER-->
+          <td><img src="images/office/office2.jpg" alt=""></td>
+          <td>Work Desk</td>
+          <td>$118.19</td>
+          <td><input type="number" value="1"></td>
+          <td>$118.19</td>
+        </tr>
+        <tr>
+          <td><a href="#"><span>&times</span></a></td> <!--<a href="#"><i class="far fa-times-cirrcle"></i></a> USE THIS ICON LATER-->
+          <td><img src="images/office/office3.jpg" alt=""></td>
+          <td>Office cubicle</td>
+          <td>$118.19</td>
+          <td><input type="number" value="1"></td>
+          <td>$118.19</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="cart-add" class="section-p1">
+    <div id="coupon">
+      <h3>Apply Coupon</h3>
+      <div>
+        <input type="text" placeholder="Enter Your Coupon">
+        <button class="normal">Apply</button>
+      </div>
+    </div>
+    <div id="subtotal">
+      <h3>Cart Totals</h3>
+      <table>
+        <tr>
+          <td>Cart Subtotal</td>
+          <td>$335</td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>Free</td>
+        </tr>
+        <tr>
+          <td><strong>Total</strong></td>
+          <td><strong>$335</strong></td>
+        </tr>
+      </table>
+      <button class="normal">Proceed to checkout</button>
+    </div>
+  </section>
+
+  <footer class="section-p1">
+    <div class="foot">
+      <div class="col">
+        <img class="logo" src="images/logo/furniture logo.png" width="60px" height="60px"> <!--Change to the company logo afterwards-->
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>Happyland estate, Sangotedo, Lagos, Nigeria</p>
+        <p><strong>Phone: </strong>+234 8062 60 3100</p>
+        <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+          <img src="images/icons/facebook icon.png" class="social-media" alt="" height="20px" width="20px" >  <!-- <i class="fab" fa-facebook-f></i> replace with icons-->
+          <img src="images/icons/instagram.jpeg" class="social-media" alt="" height="20px" width="20px">  
+          <img src="images/icons/twitter.jpeg" class="social-media" alt="" height="20px" width="20px">  
+          <img src="images/icons/pinterest.png" class="social-media" alt="" height="20px" width="20px">  
+          <img src="images/icons/youtube.png" class="social-media" alt="" height="20px" width="20px">   
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Carts</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="images/logo/apple.png" height="40px" width="120px" alt="">
+          <img src="images/logo/google.png"  height="40px" width="120px" alt="">
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="images/logo/card pay.png" class="social-media" alt="" width="150">
+      </div>
+    </div>
+    <div class="copyright">
+      @2024 Responsive Furniture Website Design
+    </div>
+  </footer> 
+
+<script src="app.js  "></script>
+
+</body>
+</html>
